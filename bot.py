@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-OWNER_ID = int(os.getenv('8371945129'))
+OWNER_ID = int(os.getenv('OWNER_ID'))
 OWNER_NAME = os.getenv('OWNER_NAME', 'Sam')
 
 async def start(update: Update, context):
